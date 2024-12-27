@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shanzhu.travel.mapper.Yuding2Mapper">
+    <resultMap id="BaseResultMap" type="com.shanzhu.travel.entity.Yuding2">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="jiudianxinxiid" property="jiudianxinxiid" jdbcType="INTEGER"/>
+        <result column="jiudianbianhao" property="jiudianbianhao" jdbcType="VARCHAR"/>
+        <result column="jiudianmingcheng" property="jiudianmingcheng" jdbcType="VARCHAR"/>
+        <result column="dizhi" property="dizhi" jdbcType="VARCHAR"/>
+        <result column="jiage" property="jiage" jdbcType="DECIMAL"/>
+        <result column="dingdanhao" property="dingdanhao" jdbcType="VARCHAR"/>
+        <result column="yudingshijian" property="yudingshijian" jdbcType="VARCHAR"/>
+        <result column="yudingrenxingming" property="yudingrenxingming" jdbcType="VARCHAR"/>
+        <result column="lianxifangshi" property="lianxifangshi" jdbcType="VARCHAR"/>
+        <result column="zhuangtai" property="zhuangtai" jdbcType="VARCHAR"/>
+        <result column="beizhu" property="beizhu" jdbcType="VARCHAR"/>
+        <result column="yudingren" property="yudingren" jdbcType="VARCHAR"/>
+        <result column="addtime" property="addtime" jdbcType="VARCHAR"/>
+        <result column="iszf" property="iszf" jdbcType="VARCHAR"/>
+        <result column="roomType" property="roomType" jdbcType="VARCHAR"/>
+
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, jiudianxinxiid, jiudianbianhao, jiudianmingcheng, dizhi, jiage, dingdanhao, yudingshijian, yudingrenxingming, lianxifangshi, zhuangtai, beizhu, yudingren, addtime, iszf,roomType    </sql>
+</mapper>
